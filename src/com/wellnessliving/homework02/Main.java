@@ -100,7 +100,7 @@ public class Main {
                     new Grade("Chemistry", 99)
                 ),
                 "KPI",
-                new Address("Kyiv", "Prospect Beresteiskyi")
+                new Address("Kyiv", "Palladina Prospect")
             )
         );
 

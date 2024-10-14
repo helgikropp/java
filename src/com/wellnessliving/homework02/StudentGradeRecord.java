@@ -8,20 +8,10 @@ public record StudentGradeRecord(
 ) {
     @Override
     public String toString() {
-        StringBuilder sbuff = new StringBuilder();
-        sbuff.append("=== STUDENT GRADE RECORD:\n");
-        sbuff.append("\tStudent's name: ");
-        sbuff.append(studentName);
-        sbuff.append("\n");
-        sbuff.append("\tSchool: ");
-        sbuff.append(school);
-        sbuff.append("\n");
-        sbuff.append("\tSubject: ");
-        sbuff.append(subject);
-        sbuff.append("\n");
-        sbuff.append("\tScore: ");
-        sbuff.append(score);
-        sbuff.append("\n");
-        return sbuff.toString();
+        return "=== STUDENT GRADE RECORD:\n"
+            + "\tStudent's name: " + studentName + "\n"
+            + "\tSchool: " + school + "\n"
+            + "\tSubject: " + subject + "\n"
+            + "\tScore: " + score + "\n";
     }
 }

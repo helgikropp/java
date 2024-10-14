@@ -116,6 +116,8 @@ public class Main {
             .limit(3)
             .toList();
 
-        System.out.println(yankee);
+        String topScores = String.join("", yankee.stream().map(StudentGradeRecord::toString).toList());
+
+        System.out.println(topScores);
     }
 }
